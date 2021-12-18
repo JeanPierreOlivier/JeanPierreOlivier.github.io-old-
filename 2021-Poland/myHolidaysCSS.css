@@ -29,7 +29,6 @@
 body
 {
     background-image: url('picturesHolidays/greyzz.png'); /* fond de l'écran */
-    background-color: #e7e9e3;
     color: #181818; /* couleur par défaut du texte */
     font-family: 'Trebuchet MS', "Arial Black", Arial, Verdana, sans-serif; /* polices à utiliser */
 }
@@ -72,13 +71,6 @@ header h2
 }
 
 
-.h2Center
-{
-    font-size: 1.1em;
-    font-style: italic;
-    margin: 10px 50px;
-    text-align: center;
-}
 .box
 {
     display: flex;
@@ -86,14 +78,16 @@ header h2
     justify-content: space-between;
 }
 
-.verticalbox {
+.verticalbox
+{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
-.horizontalbox {
+.horizontalbox
+{
     margin: 10px 0px;
     display: flex;
     flex-direction: row;
@@ -105,19 +99,12 @@ header h2
     margin: 5px 10px;
     font-size: 1em;
     color: rgb(83, 82, 82);
-    background-color: rgb(245, 245, 248);
     border: 1px solid;
-    padding: 20px 30px;
+    padding: 10px 25px 10px 25px; 
     box-shadow: 3px 3px 3px;
-    border-radius: 3px;
     list-style-type: circle;
     max-width: 100%;
     width: 70%;
-}
-
-.boxUl:hover {
-    border-color: rgb(48, 49, 51);
-    border: 2px solid;
 }
 
 p
@@ -169,15 +156,22 @@ h1
 {
     font-size: 1.3em;
     font-weight: bold;
-
 }
-h2  {
+
+h2
+{
     font-size: 1.1em;
     font-style: italic;
-    text-shadow: rgb(83, 82, 82);
-    margin: 10px 50px 5px 30px;
+    margin: 10px 50px;
 }
 
+.h2Center
+{
+    font-size: 1.1em;
+    font-style: italic;
+    margin: 10px 50px;
+    text-align: center;
+}
 
 .floatingLeft
 {
